@@ -1,0 +1,39 @@
+{
+  "name": "fp-lessons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novavovikov/fp-lessons.git"
+  },
+  "keywords": [
+    "fp",
+    "lessons",
+    "functional",
+    "programming",
+    "fold",
+    "compose",
+    "map",
+    "filter"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/novavovikov/fp-lessons/issues"
+  },
+  "homepage": "https://github.com/novavovikov/fp-lessons#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.4.6",
+    "jest": "^27.4.7"
+  }
+}
